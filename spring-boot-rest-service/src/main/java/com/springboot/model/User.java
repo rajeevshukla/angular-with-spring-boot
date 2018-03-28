@@ -1,10 +1,11 @@
 package com.springboot.model;
 
-public class Login {
+public class User {
 
 	private String username;
 	private String password;
 
+	
 	public String getUsername() {
 		return username;
 	}
