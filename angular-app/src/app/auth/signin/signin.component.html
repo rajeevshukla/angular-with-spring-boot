@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-md-10 col-xs-offset-1">
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+      <div class="form-group">
+        <label for="userName">User Name</label>
+        <input type="text" name="username" id="userName" ngModel class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" ngModel class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  </div>
+</div>
