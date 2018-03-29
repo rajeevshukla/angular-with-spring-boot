@@ -1,6 +1,6 @@
 package com.springboot.exception;
 
-public class AuthenticationException extends Exception {
+public class AuthenticationException extends RuntimeException {
 
 	private static final long serialVersionUID = -4542341039326750758L;
 
