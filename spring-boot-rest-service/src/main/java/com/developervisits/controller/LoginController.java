@@ -23,9 +23,9 @@ public class LoginController {
 	@CrossOrigin()
 	@PostMapping("/login")
 	public ResponseEntity<LoginStatus> submitLogin(@RequestBody User login) {
-		
+
 		 System.out.println(login);
-		
+
 		LoginStatus loginStatus = new LoginStatus();
 		System.out.println(login);
 
@@ -39,5 +39,4 @@ public class LoginController {
 		 ResponseEntity<LoginStatus> responseEntity = new ResponseEntity<>(loginStatus, HttpStatus.OK);
 		return responseEntity;
 	}
-
 }
